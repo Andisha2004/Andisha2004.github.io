@@ -25,3 +25,42 @@ ul{
     font-family: Tahoma, Verdana, sans-serif;
 
 }
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 16px 16px 16px 16px;
+
+    background-color: #f3f3f3;
+    color: #6697c2;
+
+    font-size: 140%;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+
+  nav ul li a:hover {
+    padding-left: 8px;
+    background-color: #86bfeb;
+    border-left: 8px solid #a5b0b2;
+  }
+
+  .header{
+    background-color: #3c6b93;
+    border-spacing: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f3f3f3;
+  }
+
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+

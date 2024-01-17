@@ -1,20 +1,24 @@
 body {
-    background-color: #f3f3f3;
+    background-color: #ffffff;
+}
+
+.hidden{
+    display: none !important;
 }
 
 p {
     color: #000000;
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: "Robot";
 }
 
 h1{
     font-family: "Roboto";
-    color: #6697c2;
+    color: #000000;
 }
 
 h2{
     font-family: "Roboto";
-    color: #6697c2;
+    color: #000000;
 }
 
 h3{
@@ -22,45 +26,65 @@ h3{
 }
 
 ul{
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: "Robot";
 
 }
 
+
 nav ul li{
     list-style: none;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 nav ul li a {
     display: block;
     padding: 16px 16px 16px 16px;
 
-    background-color: #f3f3f3;
-    color: #6697c2;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
 
     font-size: 140%;
     font-weight: bold;
     text-decoration: none;
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: "Robot";
   }
 
   nav ul li a:hover {
     padding-left: 8px;
-    background-color: #86bfeb;
-    border-left: 8px solid #a5b0b2;
+    background-color: #f9ece0;
+    border-left: 8px solid #ffca9e;
+  }
+  .menu{
+    display:flex;
+    flex-direction: row;
+  }
+  .NAVMENU{
+    border-radius: 0%;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .background-img{
+    object-fit: cover;
+  }
+  #my-name{
+    margin-left: 15px;
+    flex-grow: 3;
+    }
+
+  @media (max-width: 1000px) {
+    nav ul li{
+      list-style: none;
+      display: list-item;
+      margin-right: 10px;
+  }
   }
 
-  .header{
-    background-color: #3c6b93;
-    border-spacing: 2px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #f3f3f3;
-  }
 
-  .image img {
-    max-width: 100%;
+  .aboutMe{
+    display: flex;
+    flex-direction: row;
+  }
+  .myPic{
+    max-width: fit-content;
     height: auto;
   }
-
